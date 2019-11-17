@@ -1,22 +1,31 @@
-﻿#Yii-admin 是使用Yii2开发的一个后台管理系统
+# Yii-admin 是使用Yii2开发的一个后台管理系统
 
-##2019-11-17
-覆盖了Yii2的高级模板
-主要添加了Yii2高级模板中的vendor/，保留了bower-asset/，改为bower/
-注释了backend/config/main.php中apche get version
-创建了storage/assets/
-替换了db的账号密码
+## 2019-11-17
+* 覆盖了Yii2的高级模板
+* 主要添加了Yii2高级模板中的vendor/，保留了bower-asset/，改为bower/
+* 注释了backend/config/main.php中apche get version
+* 创建了storage/assets/
+* 替换了db的账号密码
 
-##现可正常启动
-后台页面路径为：根目录/admin.php
-环境：
-phpstudy 8.0.9.3
-Apache 2.4.39
-MySQL 5.7.26
-php 7.3.4
+<br/>
+<br/>
 
+## 现可正常启动
+* 后台页面路径为：根目录/admin.php
 
-以下为原说明：
+<br/>
+<br/>
+
+## 环境：
+* phpstudy 8.0.9.3
+* Apache 2.4.39
+* MySQL 5.7.26
+* php 7.3.4
+
+<br/>
+<br/>
+
+## 以下为原说明：
 
 主要功能：RBAC
 
