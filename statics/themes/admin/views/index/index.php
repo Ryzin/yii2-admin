@@ -32,10 +32,10 @@ Yii::$app->db->open();
                 <td>PHP版本</td>
                 <td><?=PHP_VERSION;?></td>
             </tr>
-            <tr>
-                <td>PHP运行环境</td>
-                <td><?=apache_get_version();?></td>
-            </tr>
+<!--            <tr>-->
+<!--                <td>PHP运行环境</td>-->
+<!--                <td>--><?//=apache_get_version();?><!--</td>-->
+<!--            </tr>-->
             <tr>
                 <td>PHP运行方式</td>
                 <td><?=PHP_SAPI;?></td>
@@ -85,3 +85,4 @@ Yii::$app->db->open();
         </div>
 
 </div>
+
